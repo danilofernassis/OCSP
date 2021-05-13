@@ -1,12 +1,9 @@
-#!/usr/bin/env python3
-
 import socket
 import sys
 
 # script stop with 2100
 # how to execute:
 # python overflow.py 192.168.1.109 80
-
 
 ip = sys.argv[1]
 port = int(sys.argv[2])
